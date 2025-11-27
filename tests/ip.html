@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0066ff">
+  <meta name="description" content="اختبار درجات الحماية IP - معمل دلتا لايتنج">
+  <title>اختبار IP (درجات الحماية) - DELTA Lighting</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div style="width: 50px; height: 50px; border-radius: 0.75rem; background: linear-gradient(135deg, #0066ff, #00d4ff); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: bold; color: white;">⚡</div>
+      <div class="brand-text">
+        <h1>DELTA Lighting</h1>
+        <p class="tag ar">L Lite Way Lab — معمل اختبارات الإضاءة</p>
+        <p class="tag en" style="display:none">L Lite Way Lab — Advanced Lighting Testing Lab</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="../index.html" class="ar">الرئيسية</a>
+      <a href="../index.html" class="en" style="display:none">Home</a>
+    </nav>
+
+    <div class="contact">
+      <a class="icon email" href="mailto:info@delta-egypt.com" title="البريد الإلكتروني" aria-label="Email">📧</a>
+      <a class="icon whatsapp" href="https://wa.me/201234567890" title="واتساب" aria-label="WhatsApp">💬</a>
+      <a class="icon facebook" href="https://www.facebook.com/deltaegypt" title="فيسبوك" aria-label="Facebook">👍</a>
+      <a class="icon site" href="https://www.delta-egypt.com" title="الموقع الرئيسي" aria-label="Website">🌐</a>
+    </div>
+
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <button id="dark-mode-btn" class="dark-mode-toggle" title="تبديل الوضع الليلي" aria-label="Toggle Dark Mode">🌙</button>
+      <div class="lang-toggle">
+        <button id="btn-ar" class="active" aria-label="العربية">ع</button>
+        <button id="btn-en" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding: var(--spacing-xl); margin: var(--spacing-xl);">
+      <h2 class="section-title ar">🛡️ اختبار درجات الحماية (IP Code)</h2>
+      <h2 class="section-title en" style="display:none">🛡️ IP Rating Code Testing</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xl); margin-bottom: var(--spacing-xl);">
+        <div>
+          <img src="https://images.unsplash.com/photo-1581092165854-915ec6a6fb49?w=600&h=400&fit=crop" alt="معمل اختبار IP" style="border-radius: var(--radius-lg); width: 100%; margin-bottom: var(--spacing-lg);">
+          <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">🎯 ما هي درجة IP؟</h3>
+          <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">🎯 What is IP Rating?</h3>
+          <p class="ar" style="color: var(--text-secondary); line-height: 1.8;">درجة الحماية (IP Code) هي تصنيف معياري يحدد مستوى الحماية من الأجسام الغريبة والماء. يتكون من رقمين (IPxx) حيث يمثل الأول حماية من الأتربة والثاني من الماء.</p>
+          <p class="en" style="display:none; color: var(--text-secondary); line-height: 1.8;">IP rating is a standardized classification defining protection level against foreign objects and water. Composed of two digits (IPxx) where first represents dust protection and second water protection.</p>
+        </div>
+
+        <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 2px solid var(--border);">
+          <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">📊 نطاقات الاختبار</h3>
+          <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">📊 Test Ranges</h3>
+          
+          <div style="margin-bottom: var(--spacing-lg);">
+            <p style="font-weight: 600; color: var(--primary); margin-bottom: var(--spacing-sm);">🩳 Dust Protection (First Digit)</p>
+            <p class="ar">من IP0X إلى IP6X</p>
+            <p class="en" style="display:none">From IP0X to IP6X</p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg);">
+            <p style="font-weight: 600; color: var(--primary); margin-bottom: var(--spacing-sm);">💧 Water Protection (Second Digit)</p>
+            <p class="ar">من IPX0 إلى IPX9K</p>
+            <p class="en" style="display:none">From IPX0 to IPX9K</p>
+          </div>
+
+          <div>
+            <p style="font-weight: 600; color: var(--primary); margin-bottom: var(--spacing-sm);">⏱️ Test Duration</p>
+            <p class="ar">حسب معايير IEC 60529</p>
+            <p class="en" style="display:none">Per IEC 60529 standards</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- IP Code Chart -->
+      <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 2px solid var(--border); margin-bottom: var(--spacing-xl); overflow-x: auto;">
+        <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">📋 جدول درجات IP</h3>
+        <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">📋 IP Rating Chart</h3>
+        
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background: linear-gradient(135deg, #0066ff, #00d4ff);">
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="ar">الدرجة</th>
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="en" style="display:none">Rating</th>
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="ar">حماية الأتربة</th>
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="en" style="display:none">Dust Protection</th>
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="ar">حماية المياه</th>
+              <th style="padding: var(--spacing-md); color: white; text-align: right;" class="en" style="display:none">Water Protection</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: var(--spacing-md);">IP44</td>
+              <td style="padding: var(--spacing-md);">IP44</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الأجسام فوق 1 ملم</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from objects >1mm</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الرشاشات</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from splashes</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: var(--spacing-md);">IP54</td>
+              <td style="padding: var(--spacing-md);">IP54</td>
+              <td style="padding: var(--spacing-md);" class="ar">محدود الغبار</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Limited dust</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الرشاشات بجميع الاتجاهات</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from all angle splashes</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: var(--spacing-md);">IP65</td>
+              <td style="padding: var(--spacing-md);">IP65</td>
+              <td style="padding: var(--spacing-md);" class="ar">محمي من الغبار تماماً</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Dust proof</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الماء الجاري</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from jets</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: var(--spacing-md);">IP67</td>
+              <td style="padding: var(--spacing-md);">IP67</td>
+              <td style="padding: var(--spacing-md);" class="ar">محمي من الغبار تماماً</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Dust proof</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الغمر المؤقت</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from immersion</td>
+            </tr>
+            <tr>
+              <td style="padding: var(--spacing-md);">IP69K</td>
+              <td style="padding: var(--spacing-md);">IP69K</td>
+              <td style="padding: var(--spacing-md);" class="ar">محمي من الغبار تماماً</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Dust proof</td>
+              <td style="padding: var(--spacing-md);" class="ar">حماية من الماء عالي الضغط</td>
+              <td style="padding: var(--spacing-md);" class="en" style="display:none">Protection from high-pressure water</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Test Equipment -->
+      <div style="background: linear-gradient(135deg, var(--shadow), rgba(0, 212, 255, 0.05)); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 2px solid var(--border); margin-bottom: var(--spacing-xl);">
+        <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">🔧 معدات الاختبار</h3>
+        <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">🔧 Testing Equipment</h3>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg);">
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid var(--primary);">
+            <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">💨 Dust Test Chamber</h4>
+            <p class="ar">لاختبار حماية الأتربة والجزيئات الدقيقة</p>
+            <p class="en" style="display:none">For dust and particle protection testing</p>
+          </div>
+
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid var(--secondary);">
+            <h4 style="color: var(--secondary); margin-bottom: var(--spacing-sm);">💧 Water Spray Equipment</h4>
+            <p class="ar">لاختبار حماية من الرشاشات والماء</p>
+            <p class="en" style="display:none">For water spray protection testing</p>
+          </div>
+
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid #ff006e;">
+            <h4 style="color: #ff006e; margin-bottom: var(--spacing-sm);">🌊 Immersion Tank</h4>
+            <p class="ar">لاختبار الغمر والحماية المائية</p>
+            <p class="en" style="display:none">For immersion protection testing</p>
+          </div>
+
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid var(--primary);">
+            <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">💪 High-Pressure Jet</h4>
+            <p class="ar">لاختبار الماء بضغط عالي</p>
+            <p class="en" style="display:none">For high-pressure water jet testing</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standards -->
+      <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 2px solid var(--border);">
+        <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">📜 المعايير المطبقة</h3>
+        <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">📜 Applied Standards</h3>
+        
+        <ul style="list-style: none; color: var(--text-secondary); line-height: 2.5;">
+          <li>✅ IEC 60529 : Protection by Enclosures</li>
+          <li>✅ IEC 60598 : Luminaires</li>
+          <li>✅ ISO 12103-1 : Test Dust</li>
+          <li>✅ ISO 6682 : Test of Watertightness</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="background: linear-gradient(135deg, var(--shadow), rgba(0, 212, 255, 0.05)); padding: var(--spacing-xl); margin: var(--spacing-xl); border-radius: var(--radius-lg); border: 2px solid var(--border); text-align: center;">
+      <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-lg);">هل تريد اختبار درجة الحماية (IP) للمنتج الخاص بك؟</h3>
+      <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-lg);">Want to test your product's IP rating?</h3>
+      
+      <p class="ar" style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">احصل على تقرير اختبار معتمد وشهادة دولية</p>
+      <p class="en" style="display:none; color: var(--text-secondary); margin-bottom: var(--spacing-lg);">Get certified test report and international certificate</p>
+      
+      <a href="mailto:info@delta-egypt.com" class="btn" style="display: inline-block;">
+        <span class="ar">📧 تواصل معنا</span>
+        <span class="en" style="display:none">📧 Contact Us</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-left">
+      <p class="ar"><strong>DELTA Lighting</strong> — المنطقة الصناعية الأولى، العبّور</p>
+      <p class="en" style="display:none"><strong>DELTA Lighting</strong> — First Industrial Area, El Obour</p>
+    </div>
+    <div class="footer-right">
+      <p><a href="mailto:info@delta-egypt.com">✉️ info@delta-egypt.com</a></p>
+      <p style="color: var(--text-secondary); font-size: 0.85rem;">© 2025 DELTA Lighting</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

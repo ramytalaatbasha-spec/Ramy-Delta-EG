@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0066ff">
+  <meta name="description" content="الاختبارات الفوتومترية - معمل دلتا لايتنج">
+  <title>الاختبارات الفوتومترية - DELTA Lighting</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div style="width: 50px; height: 50px; border-radius: 0.75rem; background: linear-gradient(135deg, #0066ff, #00d4ff); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: bold; color: white;">⚡</div>
+      <div class="brand-text">
+        <h1>DELTA Lighting</h1>
+        <p class="tag ar">L Lite Way Lab — معمل اختبارات الإضاءة</p>
+        <p class="tag en" style="display:none">L Lite Way Lab — Advanced Lighting Testing Lab</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="../index.html" class="ar">الرئيسية</a>
+      <a href="../index.html" class="en" style="display:none">Home</a>
+    </nav>
+    <div class="contact">
+      <a class="icon email" href="mailto:info@delta-egypt.com" title="البريد الإلكتروني">📧</a>
+      <a class="icon whatsapp" href="https://wa.me/201234567890" title="واتساب">💬</a>
+    </div>
+    <div style="display: flex; gap: 0.5rem;">
+      <button id="dark-mode-btn" class="dark-mode-toggle">🌙</button>
+      <div class="lang-toggle">
+        <button id="btn-ar" class="active">ع</button>
+        <button id="btn-en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding: var(--spacing-xl); margin: var(--spacing-xl);">
+      <h2 class="section-title ar">💡 الاختبارات الفوتومترية</h2>
+      <h2 class="section-title en" style="display:none">💡 Photometric Testing</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xl); margin-bottom: var(--spacing-xl);">
+        <div>
+          <img src="https://images.unsplash.com/photo-1581092160562-40038e57e0b5?w=600&h=400&fit=crop" alt="معمل الفوتومتري" style="border-radius: var(--radius-lg); width: 100%; margin-bottom: var(--spacing-lg);">
+        </div>
+        <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg);">
+          <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">📊 المعاملات المقيسة</h3>
+          <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">📊 Measured Parameters</h3>
+          <ul style="list-style: none; color: var(--text-secondary); line-height: 2;">
+            <li class="ar">✓ التدفق الضوئي (Luminous Flux - lm)</li>
+            <li class="en" style="display:none">✓ Luminous Flux (lm)</li>
+            <li class="ar">✓ شدة الإضاءة (Intensity - cd)</li>
+            <li class="en" style="display:none">✓ Luminous Intensity (cd)</li>
+            <li class="ar">✓ دليل تحسين اللون (CRI)</li>
+            <li class="en" style="display:none">✓ Color Rendering Index (CRI)</li>
+            <li class="ar">✓ درجة حرارة اللون (CCT)</li>
+            <li class="en" style="display:none">✓ Color Temperature (CCT)</li>
+            <li class="ar">✓ التوزيع المكاني (Distribution)</li>
+            <li class="en" style="display:none">✓ Spatial Distribution</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Equipment Section -->
+      <div style="background: linear-gradient(135deg, var(--shadow), rgba(0, 212, 255, 0.05)); padding: var(--spacing-lg); border-radius: var(--radius-lg); margin-bottom: var(--spacing-xl);">
+        <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">🔧 الأجهزة المتخصصة</h3>
+        <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">🔧 Specialized Equipment</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg);">
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid var(--primary);">
+            <h4 style="color: var(--primary); margin-bottom: var(--spacing-sm);">Goniophotometer</h4>
+            <p class="ar">لقياس توزيع الإضاءة والشدة المكانية</p>
+            <p class="en" style="display:none">Measures light distribution and intensity</p>
+          </div>
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid var(--secondary);">
+            <h4 style="color: var(--secondary); margin-bottom: var(--spacing-sm);">Integrating Sphere</h4>
+            <p class="ar">لقياس التدفق الضوئي الكلي واللومن</p>
+            <p class="en" style="display:none">Measures total luminous flux</p>
+          </div>
+          <div style="background: var(--bg-primary); padding: var(--spacing-lg); border-radius: var(--radius-md); border-left: 4px solid #ff006e;">
+            <h4 style="color: #ff006e; margin-bottom: var(--spacing-sm);">Spectrophotometer</h4>
+            <p class="ar">لقياس الخصائص اللونية والطيفية</p>
+            <p class="en" style="display:none">Measures color and spectral properties</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standards -->
+      <div style="background: var(--bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-lg);">
+        <h3 class="ar" style="color: var(--primary); margin-bottom: var(--spacing-md);">📜 معايير الاختبار</h3>
+        <h3 class="en" style="display:none; color: var(--primary); margin-bottom: var(--spacing-md);">📜 Test Standards</h3>
+        <ul style="list-style: none; color: var(--text-secondary); line-height: 2.5;">
+          <li>✅ IEC 60598-1 : Luminaires</li>
+          <li>✅ CIE 015 : Colorimetry</li>
+          <li>✅ CIE 127 : Measurement of Light</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-left"><p class="ar"><strong>DELTA Lighting</strong></p></div>
+    <div class="footer-right"><p><a href="mailto:info@delta-egypt.com">✉️ info@delta-egypt.com</a></p></div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

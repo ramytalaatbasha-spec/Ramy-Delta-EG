@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0066ff">
+  <meta name="description" content="معمل اختبارات دلتا لايتنج - خدمات اختبار متقدمة للمصابيح والإضاءة وفق معايير ISO/IEC 17025">
+  <title>DELTA Lighting - L Lite Way Lab | معمل الإضاءة المتقدم</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div style="width: 50px; height: 50px; border-radius: 0.75rem; background: linear-gradient(135deg, #0066ff, #00d4ff); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: bold; color: white;">⚡</div>
+      <div class="brand-text">
+        <h1>DELTA Lighting</h1>
+        <p class="tag ar">L Lite Way Lab — معمل اختبارات الإضاءة</p>
+        <p class="tag en" style="display:none">L Lite Way Lab — Advanced Lighting Testing Lab</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#home" class="ar">الرئيسية</a>
+      <a href="#home" class="en" style="display:none">Home</a>
+      
+      <a href="#about" class="ar">عن الشركة</a>
+      <a href="#about" class="en" style="display:none">About</a>
+      
+      <a href="#tests" class="ar">الاختبارات</a>
+      <a href="#tests" class="en" style="display:none">Tests</a>
+      
+      <a href="#labs" class="ar">المعامل</a>
+      <a href="#labs" class="en" style="display:none">Labs</a>
+      
+      <a href="#certificates" class="ar">الشهادات</a>
+      <a href="#certificates" class="en" style="display:none">Certificates</a>
+    </nav>
+
+    <div class="contact">
+      <a class="icon email" href="mailto:info@delta-egypt.com" title="البريد الإلكتروني" aria-label="Email">📧</a>
+      <a class="icon whatsapp" href="https://wa.me/201234567890" title="واتساب" aria-label="WhatsApp">💬</a>
+      <a class="icon facebook" href="https://www.facebook.com/deltaegypt" title="فيسبوك" aria-label="Facebook">👍</a>
+      <a class="icon site" href="https://www.delta-egypt.com" title="الموقع الرئيسي" aria-label="Website">🌐</a>
+    </div>
+
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <button id="dark-mode-btn" class="dark-mode-toggle" title="تبديل الوضع الليلي" aria-label="Toggle Dark Mode">🌙</button>
+      <div class="lang-toggle">
+        <button id="btn-ar" class="active" aria-label="العربية">ع</button>
+        <button id="btn-en" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h2 class="ar">خدمات اختبار ومواصفات ISO/IEC 17025</h2>
+        <h2 class="en" style="display:none">ISO/IEC 17025 Testing & Certification Services</h2>
+        
+        <p class="ar">تقديم اختبارات متقدمة لكشافات الإضاءة والمصابيح وفق معايير الايجاك والمعايير الدولية الحديثة</p>
+        <p class="en" style="display:none">Advanced testing services for light fixtures and lamps according to IECEE and international standards</p>
+        
+        <a class="btn" href="#tests" aria-label="اطلب اختبار">
+          <span class="ar">اطلب اختبار</span>
+          <span class="en" style="display:none">Request Test</span>
+        </a>
+      </div>
+      <div class="hero-gallery">
+        <div class="carousel" id="carousel">
+          <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=600&h=400&fit=crop" alt="جهاز اختبار الإضاءة" title="معدات الاختبار المتقدمة">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop" alt="معمل الاختبار" title="معمل اختبار متطور">
+          <img src="https://images.unsplash.com/photo-1581092161562-40038e57e0b5?w=600&h=400&fit=crop" alt="أجهزة الاختبار" title="أحدث التقنيات">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTS SECTION ==================== -->
+    <section id="tests" class="tests">
+      <h3 class="ar">الاختبارات المتوفرة</h3>
+      <h3 class="en" style="display:none">Available Tests</h3>
+      
+      <div class="test-list">
+        <!-- Test 1: Thermal Endurance -->
+        <article class="test" data-spec="IEC 60598">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop" alt="اختبار التحمل الحراري">
+          <h4 class="ar">اختبار التحمل الحراري والعمر للمصابيح (LED)</h4>
+          <h4 class="en" style="display:none">LED Lifetime & Thermal Endurance Test</h4>
+          <p class="ar">قياس أداء المصابيح LED تحت درجات حرارة مختلفة لفترات طويلة، مع تقييم العمر الافتراضي والتدهور.</p>
+          <p class="en" style="display:none">Measure LED lamp performance under various temperatures over extended periods with lifespan assessment.</p>
+          <a class="details" href="tests/thermal.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+
+        <!-- Test 2: IP Dust -->
+        <article class="test" data-spec="IEC 60529">
+          <img src="https://images.unsplash.com/photo-1581092165854-915ec6a6fb49?w=400&h=300&fit=crop" alt="اختبار IP للأتربة">
+          <h4 class="ar">اختبار درجات الحماية (IP) ضد نفاذية الأتربة</h4>
+          <h4 class="en" style="display:none">IP Rating Test - Dust Ingress Protection</h4>
+          <p class="ar">اختبار شامل لقياس مدى حماية المنتج من دخول الأتربة والجزيئات الدقيقة وفق معايير IEC 60529.</p>
+          <p class="en" style="display:none">Comprehensive testing to measure product protection against dust and fine particles per IEC 60529.</p>
+          <a class="details" href="tests/ip.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+
+        <!-- Test 3: IP Water -->
+        <article class="test" data-spec="IEC 60529">
+          <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=400&h=300&fit=crop" alt="اختبار IP للمياه">
+          <h4 class="ar">اختبار درجات الحماية (IP) ضد نفاذية المياه</h4>
+          <h4 class="en" style="display:none">IP Rating Test - Water Ingress Protection</h4>
+          <p class="ar">اختبار دقيق لقياس مدى عزل المنتج وحمايته من دخول الماء في ظروف مختلفة.</p>
+          <p class="en" style="display:none">Precise testing to measure product waterproofing and protection against water ingress.</p>
+          <a class="details" href="tests/ip.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+
+        <!-- Test 4: Photometric -->
+        <article class="test" data-spec="IEC 60598-1">
+          <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=400&h=300&fit=crop" alt="اختبار فوتومتري">
+          <h4 class="ar">اختبارات فوتومترية (Photometric)</h4>
+          <h4 class="en" style="display:none">Photometric Testing & Analysis</h4>
+          <p class="ar">قياس التدفق الضوئي، التوزيع المكاني، CRI، CCT والخصائص البصرية الأخرى باستخدام أجهزة عالية الدقة.</p>
+          <p class="en" style="display:none">Measure luminous flux, spatial distribution, CRI, CCT and optical characteristics with precision equipment.</p>
+          <a class="details" href="tests/photometric.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+
+        <!-- Test 5: Electrical -->
+        <article class="test" data-spec="IEC 61000">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop" alt="الاختبارات الكهربائية">
+          <h4 class="ar">الاختبارات الكهربائية والسلامة</h4>
+          <h4 class="en" style="display:none">Electrical Safety & EMC Testing</h4>
+          <p class="ar">اختبارات سلامة كهربائية شاملة، اختبار التوافقية الكهرومغناطيسية (EMC) وقياس استهلاك الطاقة.</p>
+          <p class="en" style="display:none">Comprehensive electrical safety tests, EMC compatibility and power consumption measurement.</p>
+          <a class="details" href="tests/electrical.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+
+        <!-- Test 6: Color Rendering -->
+        <article class="test" data-spec="IEC 60598-1">
+          <img src="https://images.unsplash.com/photo-1581092160562-40038e57e0b5?w=400&h=300&fit=crop" alt="اختبار تحسين الألوان">
+          <h4 class="ar">اختبار مؤشر تحسين الألوان (CRI/CQS)</h4>
+          <h4 class="en" style="display:none">Color Rendering Index & Quality Testing</h4>
+          <p class="ar">قياس جودة تحسين الألوان (CRI)، درجة حرارة اللون (CCT) وتحليل الخصائص اللونية للإضاءة.</p>
+          <p class="en" style="display:none">Measure color rendering quality (CRI), color temperature (CCT) and light color characteristics.</p>
+          <a class="details" href="tests/color.html" aria-label="تفاصيل الاختبار">
+            <span class="ar">التفاصيل</span>
+            <span class="en" style="display:none">Details</span>
+          </a>
+        </article>
+      </div>
+
+      <!-- REQUEST FORM -->
+      <div class="request-form">
+        <h4 class="ar">طلب اختبار</h4>
+        <h4 class="en" style="display:none">Request a Test</h4>
+        
+        <form id="testRequestForm">
+          <label class="ar">الاسم الكامل</label>
+          <label class="en" style="display:none">Full Name</label>
+          <input name="name" required placeholder="محمد أحمد">
+
+          <label class="ar">البريد الإلكتروني</label>
+          <label class="en" style="display:none">Email Address</label>
+          <input name="email" type="email" required placeholder="example@company.com">
+
+          <label class="ar">اختر نوع الاختبار</label>
+          <label class="en" style="display:none">Select Test Type</label>
+          <select name="test" required>
+            <option value="">-- اختر الاختبار --</option>
+            <option value="thermal" class="ar">التحمل الحراري</option>
+            <option value="thermal" class="en" style="display:none">Thermal Endurance</option>
+            <option value="ip" class="ar">اختبار IP</option>
+            <option value="ip" class="en" style="display:none">IP Rating</option>
+            <option value="photometric" class="ar">فوتومتريك</option>
+            <option value="photometric" class="en" style="display:none">Photometric</option>
+            <option value="electrical" class="ar">كهربائي</option>
+            <option value="electrical" class="en" style="display:none">Electrical</option>
+            <option value="color" class="ar">الألوان</option>
+            <option value="color" class="en" style="display:none">Color</option>
+          </select>
+
+          <button type="submit" class="btn" style="width: 100%; margin-top: var(--spacing-md);">
+            <span class="ar">ارسال الطلب</span>
+            <span class="en" style="display:none">Submit Request</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ==================== LABS SECTION ==================== -->
+    <section id="labs" class="labs">
+      <h3 class="ar">إدارة الاختبارات والمعامل المتخصصة</h3>
+      <h3 class="en" style="display:none">Testing Management & Specialized Laboratories</h3>
+      
+      <ul>
+        <li class="ar">معمل الاختبارات الكهربائية والسلامة</li>
+        <li class="en" style="display:none">Electrical Testing & Safety Laboratory</li>
+        
+        <li class="ar">معمل كفاءة الطاقة والاستهلاك</li>
+        <li class="en" style="display:none">Energy Efficiency & Consumption Lab</li>
+        
+        <li class="ar">معمل القياسات الضوئية والفوتومترية</li>
+        <li class="en" style="display:none">Photometric Measurements Laboratory</li>
+        
+        <li class="ar">معمل اختبار المصابيح الكهربائية</li>
+        <li class="en" style="display:none">Electric Lamp Testing Laboratory</li>
+        
+        <li class="ar">معمل الجونيوفوتوماتريك (توزيع الإضاءة)</li>
+        <li class="en" style="display:none">Goniophotometer Laboratory (Light Distribution)</li>
+        
+        <li class="ar">معمل اختبار التحمل الحراري والعمر (LED)</li>
+        <li class="en" style="display:none">Thermal Endurance & LED Lifespan Laboratory</li>
+        
+        <li class="ar">معمل اختبار IP (درجات الحماية)</li>
+        <li class="en" style="display:none">IP Rating Testing Laboratory</li>
+        
+        <li class="ar">معمل اختبار التوافقية الكهرومغناطيسية (EMC)</li>
+        <li class="en" style="display:none">EMC Compatibility Testing Laboratory</li>
+      </ul>
+    </section>
+
+    <section class="devices">
+      <h3 class="ar">الأجهزة والمعدات المتطورة</h3>
+      <h3 class="en" style="display:none">Advanced Equipment & Devices</h3>
+      
+      <div class="device-grid">
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop" alt="Goniophotometer">
+          <h4 class="ar">جونيوفوتوماتريك</h4>
+          <h4 class="en" style="display:none">Goniophotometer</h4>
+          <p class="ar">يقوم بقياس توزيع الإضاءة المكاني وخصائص الشعاع الضوئي بدقة عالية جداً.</p>
+          <p class="en" style="display:none">Measures spatial light distribution and beam characteristics with extreme precision.</p>
+        </div>
+
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092160562-40038e57e0b5?w=400&h=300&fit=crop" alt="Integrating Sphere">
+          <h4 class="ar">كرة التكامل</h4>
+          <h4 class="en" style="display:none">Integrating Sphere</h4>
+          <p class="ar">لقياس التدفق الضوئي الكلي واللومن والخصائص الكهربائية للمصابيح بكفاءة عالية.</p>
+          <p class="en" style="display:none">Measures total luminous flux, lumens and electrical characteristics of lamps efficiently.</p>
+        </div>
+
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092165854-915ec6a6fb49?w=400&h=300&fit=crop" alt="Temperature Chamber">
+          <h4 class="ar">غرفة التحكم الحراري</h4>
+          <h4 class="en" style="display:none">Temperature Chamber</h4>
+          <p class="ar">لاختبارات التحمل الحراري والعمر والاستقرار الحراري للمنتجات.</p>
+          <p class="en" style="display:none">For thermal endurance, lifespan and thermal stability testing of products.</p>
+        </div>
+
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=400&h=300&fit=crop" alt="Environmental Test Chamber">
+          <h4 class="ar">غرفة الاختبار البيئية</h4>
+          <h4 class="en" style="display:none">Environmental Test Chamber</h4>
+          <p class="ar">لاختبار IP الرطوبة والتأثيرات البيئية والمناخية على المنتجات.</p>
+          <p class="en" style="display:none">For IP testing, humidity and environmental/climatic effects on products.</p>
+        </div>
+
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop" alt="EMC Test Equipment">
+          <h4 class="ar">أجهزة اختبار التوافقية</h4>
+          <h4 class="en" style="display:none">EMC Test Equipment</h4>
+          <p class="ar">لاختبار التوافقية الكهرومغناطيسية والانبعاثات الكهرومغناطيسية.</p>
+          <p class="en" style="display:none">For EMC testing and electromagnetic emissions compliance.</p>
+        </div>
+
+        <div class="device">
+          <img src="https://images.unsplash.com/photo-1581092160562-40038e57e0b5?w=400&h=300&fit=crop" alt="Spectrophotometer">
+          <h4 class="ar">طيف الضوء</h4>
+          <h4 class="en" style="display:none">Spectrophotometer</h4>
+          <p class="ar">لقياس الخصائص اللونية والطيفية للإضاءة بدقة عالية.</p>
+          <p class="en" style="display:none">Measures light color and spectral characteristics with high precision.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERACTIVE CARDS SECTION ==================== -->
+    <section id="interactive" class="interactive">
+      <h3 class="ar">تعرف أكثر على خدماتنا — مرّر ووقف بالمؤشر</h3>
+      <h3 class="en" style="display:none">Learn More About Our Services — Hover Over Cards</h3>
+      
+      <div class="interactive-wrap">
+        <div class="card">
+          <div class="card-inner">
+            <h4 class="ar">التحمل الحراري</h4>
+            <h4 class="en" style="display:none">Thermal Endurance</h4>
+            <p class="summary ar">اختبار العمر والحرارة</p>
+            <p class="summary en" style="display:none">Lifespan & Temperature</p>
+            <p class="more ar">اختبار التحمل الحراري يقيس أداء المصابيح عند درجات حرارة مختلفة لفترات طويلة، ويعطى تقرير العمر والتدهور والموثوقية.</p>
+            <p class="more en" style="display:none">Thermal endurance testing measures lamp performance at different temperatures over extended periods with detailed reports on lifespan, degradation, and reliability.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <h4 class="ar">اختبار IP</h4>
+            <h4 class="en" style="display:none">IP Testing</h4>
+            <p class="summary ar">تفاصيل الحماية</p>
+            <p class="summary en" style="display:none">Protection Details</p>
+            <p class="more ar">اختبار IP يقيس نفاذية الأتربة والمياه ويعطى الدرجة المناسبة (IPxx) مع خطوات التعرض الدقيقة والنتائج المفصلة.</p>
+            <p class="more en" style="display:none">IP testing measures dust and water ingress, provides appropriate rating (IPxx) with detailed exposure procedures and comprehensive results.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <h4 class="ar">فوتومتريك</h4>
+            <h4 class="en" style="display:none">Photometric</h4>
+            <p class="summary ar">قياس التدفق والتوزيع</p>
+            <p class="summary en" style="display:none">Flux & Distribution</p>
+            <p class="more ar">فحوص فوتومترية متقدمة لقياس التدفق الضوئي، التوزيع المكاني، CRI، CCT باستخدام Goniophotometer وIntegrating Sphere.</p>
+            <p class="more en" style="display:none">Advanced photometric tests measuring luminous flux, spatial distribution, CRI, CCT using Goniophotometer and Integrating Sphere equipment.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <h4 class="ar">الشهادات</h4>
+            <h4 class="en" style="display:none">Certificates</h4>
+            <p class="summary ar">معايير عالمية</p>
+            <p class="summary en" style="display:none">International Standards</p>
+            <p class="more ar">إصدار شهادات اختبار موثقة وفق ISO/IEC 17025 وملفات النتائج جاهزة للتقديم للسوق المحلي والسعودي والدولي.</p>
+            <p class="more en" style="display:none">Issuing certified test certificates according to ISO/IEC 17025 with results ready for submission to local, Saudi, and international markets.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="interactive-hint ar">اقف بالمؤشر على أي بطاقة ليظهر مزيد من التفاصيل — اضغط على الهاتف لعرض التفاصيل</div>
+      <div class="interactive-hint en" style="display:none">Hover over any card to see more details — tap on mobile to show details</div>
+    </section>
+
+    <!-- ==================== CERTIFICATES SECTION ==================== -->
+    <section id="certificates" class="labs" style="margin-top: var(--spacing-xl);">
+      <h3 class="ar">🏆 الشهادات والاعتمادات</h3>
+      <h3 class="en" style="display:none">🏆 Certificates & Accreditations</h3>
+      
+      <div class="device-grid">
+        <div class="device" style="text-align: center;">
+          <div style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #0066ff, #00d4ff); border-radius: var(--radius-lg); margin-bottom: var(--spacing-md); color: white; font-size: 3rem;">🏅</div>
+          <h4 class="ar">شهادة الإيلاك</h4>
+          <h4 class="en" style="display:none">IECEE Certificate</h4>
+          <p class="ar">معترف بها دولياً - تغطي منتجات الإضاءة والمصابيح حسب المعايير الدولية.</p>
+          <p class="en" style="display:none">Internationally recognized - covers lighting products and lamps per international standards.</p>
+        </div>
+
+        <div class="device" style="text-align: center;">
+          <div style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #00d4ff, #ff006e); border-radius: var(--radius-lg); margin-bottom: var(--spacing-md); color: white; font-size: 3rem;">✅</div>
+          <h4 class="ar">شهادة ISO/IEC 17025</h4>
+          <h4 class="en" style="display:none">ISO/IEC 17025</h4>
+          <p class="ar">اعتماد المختبر من قبل جهات المراقبة الدولية - معايير الاختبار والقياس العالمية.</p>
+          <p class="en" style="display:none">Laboratory accreditation by international regulatory bodies - global testing and measurement standards.</p>
+        </div>
+
+        <div class="device" style="text-align: center;">
+          <div style="width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #ff006e, #0066ff); border-radius: var(--radius-lg); margin-bottom: var(--spacing-md); color: white; font-size: 3rem;">🌍</div>
+          <h4 class="ar">معايير دولية</h4>
+          <h4 class="en" style="display:none">International Standards</h4>
+          <p class="ar">الامتثال الكامل لمعايير IEC و CE و RoHS والمتطلبات الدولية الأخرى.</p>
+          <p class="en" style="display:none">Full compliance with IEC, CE, RoHS and other international requirements.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-left">
+      <p class="ar"><strong>DELTA Lighting</strong> — المنطقة الصناعية الأولى، العبّور</p>
+      <p class="en" style="display:none"><strong>DELTA Lighting</strong> — First Industrial Area, El Obour</p>
+      
+      <p class="ar">بجانب قباني للأثاث</p>
+      <p class="en" style="display:none">Near Qabani Furniture</p>
+      
+      <p><a href="https://maps.google.com/?q=DELTA+Lighting+El+Obour" class="ar">عرض على الخريطة</a>
+      <a href="https://maps.google.com/?q=DELTA+Lighting+El+Obour" class="en" style="display:none">View on Map</a></p>
+    </div>
+    
+    <div class="footer-right">
+      <p><a href="mailto:info@delta-egypt.com">✉️ info@delta-egypt.com</a></p>
+      <p><a href="tel:+201234567890" class="ar">📱 +20 123 456 7890</a>
+      <a href="tel:+201234567890" class="en" style="display:none">📱 +20 123 456 7890</a></p>
+      <p style="margin-top: var(--spacing-md); color: var(--text-secondary); font-size: 0.85rem;">© 2025 DELTA Lighting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then(()=> console.log('✅ Service Worker registered'))
+        .catch(err=> console.warn('⚠️ SW registration failed:', err));
+    }
+  </script>
+</body>
+</html>
